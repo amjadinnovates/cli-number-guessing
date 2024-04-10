@@ -12,7 +12,7 @@ const answer=await inquirer.prompt([
     {
         name: "userGuess",
         type:"number",
-        message:"Please guess a number:",
+        message:"Please guess a number between 1-10 :",
     }
 ])
 //compare both numbers for equality
